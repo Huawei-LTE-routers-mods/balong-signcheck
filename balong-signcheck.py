@@ -39,7 +39,7 @@ Example from E8372s-153 21.333.64.00.1456 (ZONG BOLT+):
 [efuse]: efuse group10 value = 0x243e1920.  | ⇒ group_dieid + chipid (DRV_GET_DIEID in vxworks/linux)
 [efuse]: efuse group11 value = 0xc0002c1a.  | // AES (vxworks), probably used for VSIM feature (efuseWriteAes and efuseReadAes in vxworks)
 [efuse]: efuse group12 value = 0x3ff.      /
-[efuse]: efuse group13 value = 0x1443f801.    // efuse_secboot_id + anti-downgrade bit (see mbb_kernel_secboot_id_check linux function)
+[efuse]: efuse group13 value = 0x1443f801.    // efuse_secboot_id + anti-downgrade byte (see mbb_kernel_secboot_id_check linux function)
 [efuse]: efuse group14 value = 0x8b.
 [efuse]: efuse group15 value = 0x18.          // boot_sel + secboot_en
 '''
