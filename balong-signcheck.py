@@ -134,7 +134,7 @@ class BalongSecImage:
             data = data[USBLOADER_LEN:]      # strip usbloader header
             self.data = data
         if data[4708:4712] == b"Copy":
-            raise self.BalongUnsupportedImage("Balong V7R11 images are not supported yet!")
+            raise self.BalongUnsupportedImage("Balong V7R22 images are not supported yet!")
         if data[1000:1004] == b"Copy":       # Check Balong V7R5 copyright message
             self.is_balong_v7r5 = True
         if data[872:876] != b"Copy" and not self.is_balong_v7r5:
