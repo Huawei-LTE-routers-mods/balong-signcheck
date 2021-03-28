@@ -217,7 +217,9 @@ def main():
     elif md5hexdigest == '973900451a9d22682c9067ec7a0b24f4':
         print("⇒ Found KNOWN HASH(2): E5577s/Bs .76 STC / E3372s-153 .161 Beeline / E8372s-153 .306 Zong/Warid / E8372h-608 .274 Telenor / E5573s-320 .306 Zong / E5573cs .274 Telenor")
     elif md5hexdigest == '1cbb16c5bad8b08ead3268ef4b94c908':
-        print("⇒ Found KNOWN HASH(3): E5577x / E5573x / E5572 / B618 new -sec firmware")
+        print("⇒ Found KNOWN HASH(3): E5577x / E5573x / E5572 / B618 / E3372h-320 new -sec firmware")
+    elif md5hexdigest == 'bd912dddbd82f798e80ea1e08148998e':
+        print("⇒ Found KNOWN HASH(4): E8372h-320 new -sec firmware")
     else:
         print("⇒ Found UNKNOWN HASH!")
 
